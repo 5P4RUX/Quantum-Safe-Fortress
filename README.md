@@ -1,4 +1,4 @@
-# 🔐 Quantum-Safe Fortress
+MPCtum-Safe Fortress
 
 [![License](https://img.shields.io/github/license/5P4RUX/Quantum-Safe-Fortress?color=blue)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/5P4RUX/Quantum-Safe-Fortress)](https://github.com/5P4RUX/Quantum-Safe-Fortress/stargazers)
@@ -84,26 +84,24 @@ graph TB
     CORE --> THRESHOLD[🎲 Threshold Crypto<br/>Shamir 5-of-9]
 ```
 
-##🎭 Module 2 — Trust & Privacy Layer (MPC + ZK)
+## 🎭 Module 2 — Trust & Privacy Layer (MPC + ZK)
 
 ```mermaid
 graph TB
-    TRUST[🤝 Distributed Trust Layer]
+    TRUST[Distributed Trust Layer]
 
     TRUST --> MPC[Secure MPC]
-    MPC --> FROST[FROST Threshold Signatures]
+    MPC --> FROST[FROST Signatures]
     MPC --> GG20[GG20 ECDSA]
 
-    TRUST --> ZK[Zero-Knowledge Systems]
-    ZK --> SNARK[zk-SNARK (Plonk)]
-    ZK --> STARK[zk-STARK]
-    ZK --> BULLET[Bulletproofs+]
+    TRUST --> ZK[Zero Knowledge Proofs]
+    ZK --> SNARK[ZK SNARK]
+    ZK --> STARK[ZK STARK]
+    ZK --> BP[Bulletproofs]
 
-    ZK --> COMPOSE[Recursive Proofs<br/>Nova / Folding]
+    ZK --> REC[Recursive Proofs]
 
-    TRUST --> PRIVACY[Differential Privacy]
-```
-
+    TRUST --> PRIV[Differential Privacy]ivacy
 ## ⚙️ Module 3 — Hardware Root of Trust
 
 ```mermaid
@@ -141,22 +139,22 @@ graph TB
     ENV --> HOOK[Hook / Frida Detection]
 ```
 
-##🌐 Module 5 — Network & Data Security
+## 🌐 Module 5 — Network & Data Security
 
 ```mermaid
 graph TB
-    NET[🔒 Zero-Trust Network]
+    NET[Zero Trust Network]
 
-    NET --> TLS[TLS 1.3 Hardened]
+    NET --> TLS[TLS 1.3]
     NET --> MTLS[Mutual TLS]
     NET --> PIN[Certificate Pinning]
-    NET --> TUNNEL[Encrypted Tunnels]
+    NET --> TUN[Encrypted Tunnels]
 
-    DATA[💾 Data Protection]
+    DATA[Data Protection]
     DATA --> REST[Encryption at Rest]
-    DATA --> TRANSIT[Encryption in Transit]
+    DATA --> TRANS[Encryption in Transit]
     DATA --> USE[Encryption in Use]
-    DATA --> KEY[Key Management (HSM)]
+    DATA --> KM[Key Management]
 
     NET --> DATA
 ```
