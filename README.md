@@ -1,4 +1,4 @@
-MPCtum-Safe Fortress
+ivacyess
 
 [![License](https://img.shields.io/github/license/5P4RUX/Quantum-Safe-Fortress?color=blue)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/5P4RUX/Quantum-Safe-Fortress)](https://github.com/5P4RUX/Quantum-Safe-Fortress/stargazers)
@@ -101,21 +101,22 @@ graph TB
 
     ZK --> REC[Recursive Proofs]
 
-    TRUST --> PRIV[Differential Privacy]ivacy
-## ⚙️ Module 3 — Hardware Root of Trust
+    TRUST --> PRIV[Differential Privacy]
+``` 
+## 🧩 Module 3 — Hardware Root of Trust
 
 ```mermaid
 graph TB
-    HW[🏰 Hardware Root of Trust]
+    HW[Hardware Root of Trust]
 
-    HW --> HSM[HSM Cluster<br/>FIPS 140-3 Level 4]
+    HW --> HSM[HSM Cluster]
     HW --> SE[Secure Element]
-    HW --> PUF[PUF-Based Identity]
+    HW --> PUF[PUF Identity]
 
-    HW --> TEE[Trusted Execution Environment]
-    TEE --> TRUSTZONE[ARM TrustZone]
+    HW --> TEE[Trusted Execution]
+    TEE --> TZ[ARM TrustZone]
     TEE --> SGX[Intel SGX]
-    TEE --> SEV[AMD SEV-SNP]
+    TEE --> SEV[AMD SEV SNP]
 
     HW --> BOOT[Secure Boot Chain]
 ```
