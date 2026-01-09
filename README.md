@@ -1,4 +1,15 @@
 # Quantum-Safe-Fortress
+[![License](https://img.shields.io/github/license/5P4RUX/Quantum-Safe-Fortress?color=blue)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/5P4RUX/Quantum-Safe-Fortress)](https://github.com/5P4RUX/Quantum-Safe-Fortress/stargazers)
+[![Repo Size](https://img.shields.io/github/repo-size/5P4RUX/Quantum-Safe-Fortress)](https://github.com/5P4RUX/Quantum-Safe-Fortress)
+
+## 📘 Overview
+
+Quantum-Safe Fortress is a comprehensive, enterprise-grade
+post-quantum security reference architecture combining
+post-quantum cryptography, zero-trust networking, MPC,
+zero-knowledge proofs, hardware roots of trust, AI forensics,
+and blockchain audit trails.
 
 🔐 Quantum-Safe Fortress is a comprehensive, bank-grade security reference architecture
 designed for a post-quantum world.
@@ -30,6 +41,13 @@ Designed to remain secure under:
 • Supply-chain compromises  
 • Advanced persistent threats (APT)
 
+## 🧠 How to Use
+
+1. Clone the repo  
+2. Render the architecture (Mermaid/Diagrams)  
+3. View high-level design in PDF/HTML
+
+   
 graph TB
     %% ===== QUANTUM-SAFE MULTI-LAYER DEFENSE =====
     subgraph QF["🌌 QUANTUM-SAFE FORTRESS"]
@@ -340,20 +358,15 @@ before use in production environments.
 Licensed under the **Apache License 2.0**.  
 See [`LICENSE`](./LICENSE) for details.
 
-## 🏷️ Repository Topics
+## 🏷️ Repo Topics
 
-This repository focuses on advanced security and cryptographic research,
-including but not limited to the following areas:
+This project covers advanced topics in:
 
-- Post-Quantum Cryptography (PQC)
-- Zero-Trust Architecture
-- Defense-in-Depth Security Models
-- Secure Multi-Party Computation (MPC)
-- Threshold Cryptography
-- Zero-Knowledge Proofs (zk-SNARKs, zk-STARKs)
-- Hardware Root of Trust (HSM, TEE, Secure Enclaves)
-- AI-Powered Malware & Behavioral Forensics
-- Blockchain-Based Audit Trails
-- Confidential Computing
-- DevSecOps Security Pipelines
-- Regulatory & Compliance Frameworks
+- Post-Quantum Cryptography  
+- Zero-Trust Architecture  
+- Secure Multi-Party Computation  
+- Zero-Knowledge Proofs  
+- Hardware Root of Trust  
+- AI-Powered Forensics  
+- Blockchain Audit  
+- DevSecOps
