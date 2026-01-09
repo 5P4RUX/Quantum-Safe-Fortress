@@ -205,12 +205,11 @@ Licensed under the Apache License 2.0.
 See LICENSE for details.
 
 ## 🏷️ Repository Topics
-Topics
-mography
+
+Post-Quantum Cryptography
 Zero-Trust Architecture
 Secure Multi-Party Computation
 Zero-Knowledge Proofs
 Hardware Root of Trust
 AI Security & Forensics
-Blockchain Topics
-ss
+Blockchain Audit
