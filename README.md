@@ -185,7 +185,6 @@ graph TB
 ```
 
 ## 🧭 Design Principles
-## 🧭 Design Principles
 
 - Defense-in-depth by default  
 - Zero-trust, identity-first access  
