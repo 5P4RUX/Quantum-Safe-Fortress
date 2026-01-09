@@ -185,13 +185,16 @@ graph TB
 ```
 
 ## 🧭 Design Principles
+## 🧭 Design Principles
 
-• Defense-in-depth by default
-• Zero-trust, identity-first access
-• Cryptographic agility & redundancy
-• Hardware-backed trust anchors
-• Privacy-preserving verification
-• Continuous monitoring & response
+- Defense-in-depth by default  
+- Zero-trust, identity-first access  
+- Cryptographic agility and redundancy  
+- Post-quantum resilience  
+- Hardware-backed trust anchors  
+- Privacy by design  
+- Fail-secure and audit-first architecture  
+- Continuous detection and response
 
 ## ⚠️ Disclaimer
 
