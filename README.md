@@ -1,8 +1,5 @@
 ## 🔐 Quantum-Safe Fortress
 
-_Enterprise-grade, bank-level, post-quantum security reference architecture
-Designed for high-assurance, regulated, and future-adversarial environments._
-
 [![License](https://img.shields.io/github/license/5P4RUX/Quantum-Safe-Fortress?color=blue)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/5P4RUX/Quantum-Safe-Fortress)](https://github.com/5P4RUX/Quantum-Safe-Fortress/stargazers)
 [![Repo Size](https://img.shields.io/github/repo-size/5P4RUX/Quantum-Safe-Fortress)](https://github.com/5P4RUX/Quantum-Safe-Fortress)
