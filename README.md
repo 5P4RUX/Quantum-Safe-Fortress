@@ -1,4 +1,7 @@
-ivacyess
+## 🔐 Quantum-Safe Fortress
+
+_Enterprise-grade, bank-level, post-quantum security reference architecture
+Designed for high-assurance, regulated, and future-adversarial environments._
 
 [![License](https://img.shields.io/github/license/5P4RUX/Quantum-Safe-Fortress?color=blue)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/5P4RUX/Quantum-Safe-Fortress)](https://github.com/5P4RUX/Quantum-Safe-Fortress/stargazers)
@@ -200,8 +203,9 @@ It is not a drop-in production solution and must be independently reviewed, audi
 
 ## 📜 License
 
-Licensed under the Apache License 2.0.
-See LICENSE for details.
+Licensed under the **Apache License 2.0**  
+- Local license file: [LICENSE](LICENSE)  
+- Official text: https://www.apache.org/licenses/LICENSE-2.0
 
 ## 🏷️ Repository Topics
 
