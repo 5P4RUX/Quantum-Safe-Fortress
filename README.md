@@ -121,7 +121,7 @@ graph TB
     HW --> BOOT[Secure Boot Chain]
 ```
 
-##🔬 Module 4 — Runtime & Binary Protection
+## 🔬 Module 4 — Runtime & Binary Protection
 
 ```mermaid
 graph TB
@@ -160,7 +160,7 @@ graph TB
     NET --> DATA
 ```
 
-##🔬 Module 6 — Detection, Audit & Incident Response
+## 🔬 Module 6 — Detection, Audit & Incident Response
 
 ```mermaid
 graph TB
@@ -184,7 +184,7 @@ graph TB
     AUDIT --> IR
 ```
 
-##🧭 Design Principles
+## 🧭 Design Principles
 
 • Defense-in-depth by default
 • Zero-trust, identity-first access
@@ -206,10 +206,9 @@ Licensed under the **Apache License 2.0**
 
 ## 🏷️ Repository Topics
 
-Post-Quantum Cryptography
-Zero-Trust Architecture
-Secure Multi-Party Computation
-Zero-Knowledge Proofs
-Hardware Root of Trust
-AI Security & Forensics
-Blockchain Audit
+• Post-Quantum Cryptography
+• Zero-Trust Architecture
+• Secure Multi-Party Computation
+• Zero-Knowledge Proofs
+• Hardware Root of Trust
+• AI Security & Forensics
