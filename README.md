@@ -206,9 +206,8 @@ Licensed under the **Apache License 2.0**
 
 ## 🏷️ Repository Topics
 
-• Post-Quantum Cryptography
-• Zero-Trust Architecture
-• Secure Multi-Party Computation
-• Zero-Knowledge Proofs
-• Hardware Root of Trust
-• AI Security & Forensics
+![Status](https://img.shields.io/badge/status-reference--architecture-blue)
+![Security](https://img.shields.io/badge/security-bank--grade-critical)
+![Post-Quantum](https://img.shields.io/badge/crypto-post--quantum-success)
+![Zero-Trust](https://img.shields.io/badge/architecture-zero--trust-informational)
+![License](https://img.shields.io/github/license/5P4RUX/Quantum-Safe-Fortress)
