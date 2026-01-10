@@ -63,25 +63,25 @@ Each module can be adopted individually or as part of the full fortress.
 
 ```mermaid
 graph TB
-    CORE[🛡️ Quantum-Immune Core]
+    CORE["🛡️ Quantum-Immune Core"]
 
-    CORE --> KEM[🔑 Key Encapsulation]
-    KEM --> KYBER[Kyber-1024<br/>IND-CCA2]
+    CORE --> KEM["🔑 Key Encapsulation"]
+    KEM --> KYBER["Kyber-1024<br/>IND-CCA2"]
 
-    CORE --> SIG[✍️ Digital Signatures]
-    SIG --> DILITHIUM[Dilithium-5]
-    SIG --> FALCON[FALCON-1024]
-    SIG --> SPHINCS[SPHINCS+]
+    CORE --> SIG["✍️ Digital Signatures"]
+    SIG --> DILITHIUM["Dilithium-5"]
+    SIG --> FALCON["FALCON-1024"]
+    SIG --> SPHINCS["SPHINCS+"]
 
-    CORE --> HYBRID[🔗 Hybrid Cascade]
-    HYBRID --> CLASSIC[RSA-4096 + ECDSA P-521]
-    HYBRID --> PQC[PQC Layer]
+    CORE --> HYBRID["🔗 Hybrid Cascade"]
+    HYBRID --> CLASSIC["RSA-4096 + ECDSA P-521"]
+    HYBRID --> PQC["PQC Layer"]
 
-    CORE --> KDF[🔐 Key Derivation]
-    KDF --> HKDF[HKDF-SHA3-512]
-    KDF --> ARGON[Argon2id]
+    CORE --> KDF["🔐 Key Derivation"]
+    KDF --> HKDF["HKDF-SHA3-512"]
+    KDF --> ARGON["Argon2id"]
 
-    CORE --> THRESHOLD[🎲 Threshold Crypto<br/>Shamir 5-of-9]
+    CORE --> THRESHOLD["🎲 Threshold Crypto<br/>Shamir 5-of-9"]
 ```
 
 ## 🎭 Module 2 — Trust & Privacy Layer (MPC + ZK)
